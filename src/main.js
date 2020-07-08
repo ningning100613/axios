@@ -5,7 +5,6 @@ import store from './store'
 import Http from './service/http'
 
 Vue.config.productionTip = false
-
 //Http挂载到实例上
 Vue.prototype.$Http = Http
 
